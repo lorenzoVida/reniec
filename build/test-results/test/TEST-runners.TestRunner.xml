@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="runners.TestRunner" tests="1" skipped="0" failures="1" errors="0" timestamp="2024-09-12T00:20:46" hostname="LAPTOP-QKEJ8U4N" time="35.447">
+  <properties/>
+  <testcase name="Login exitoso en orange" classname="runners.TestRunner" time="35.447">
+    <failure message="java.lang.AssertionError: &#13;&#10;Expected: a string containing &quot;DEMOQA&quot;&#13;&#10;     but: was &quot;Registro Nacional de Identificación y Estado Civil :: RENIEC&quot;" type="java.lang.AssertionError">java.lang.AssertionError: 
+Expected: a string containing &quot;DEMOQA&quot;
+     but: was &quot;Registro Nacional de Identificación y Estado Civil :: RENIEC&quot;
+	at net.serenitybdd.screenplay.ErrorTally.throwSummaryExceptionFrom(ErrorTally.java:38)
+	at net.serenitybdd.screenplay.ErrorTally.reportAnyErrors(ErrorTally.java:32)
+	at net.serenitybdd.screenplay.Actor.should(Actor.java:353)
+	at stepdefinitions.hook.Hook.openTheTestWebsite(Hook.java:29)
+	at ✽.usuario &quot;admin&quot; ingresar a la web principal(file:///D:/workSpaceScreenPlay/reniec/screePlay-master/src/test/resources/features/Login.feature:5)
+</failure>
+  </testcase>
+  <system-out><![CDATA[19:20:46.693 [Test worker] INFO  i.c.core.plugin.SerenityReporter - Running feature from file:///D:/workSpaceScreenPlay/reniec/screePlay-master/src/test/resources/features/Login.feature
+19:20:46.838 [Test worker] INFO   - 
+
+-------------------------------------------------------------------------------------
+     _______. _______ .______       _______ .__   __.  __  .___________.____    ____ 
+    /       ||   ____||   _  \     |   ____||  \ |  | |  | |           |\   \  /   / 
+   |   (----`|  |__   |  |_)  |    |  |__   |   \|  | |  | `---|  |----` \   \/   /  
+    \   \    |   __|  |      /     |   __|  |  . `  | |  |     |  |       \_    _/   
+.----)   |   |  |____ |  |\  \----.|  |____ |  |\   | |  |     |  |         |  |     
+|_______/    |_______|| _| `._____||_______||__| \__| |__|     |__|         |__|    
+                                                                                     
+ News and tutorials at http://www.serenity-bdd.info                                  
+ Documentation at https://wakaleo.gitbooks.io/the-serenity-book/content/             
+ Join the Serenity Community on Gitter: https://gitter.im/serenity-bdd/serenity-core 
+ Serenity BDD Support and Training at http://serenity-bdd.info/#/trainingandsupport  
+-------------------------------------------------------------------------------------
+
+19:20:46.842 [Test worker] INFO   - Test Suite Started: Login Orange
+19:20:46.853 [Test worker] INFO  i.c.core.plugin.SerenityReporter - Running feature from file:///D:/workSpaceScreenPlay/reniec/screePlay-master/src/test/resources/features/Login.feature
+19:20:46.858 [Test worker] INFO   - Test Suite Started: Login Orange
+19:20:46.912 [Test worker] INFO  i.c.core.plugin.SerenityReporter - Running feature from file:///D:/workSpaceScreenPlay/reniec/screePlay-master/src/test/resources/features/Login.feature
+19:20:46.923 [Test worker] INFO   - 
+  _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
+ |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
+   | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
+   |_|   |___| |___/   |_|     |___/   |_|   /_/ \_\ |_|_\   |_|   |___| |___/ 
+
+Login exitoso en orange(login-orange;login-exitoso-en-orange)
+--------------------------------------------------------------------------------
+19:20:47.273 [Test worker] INFO  n.s.c.w.d.DriverProvider - Using WebDriverManager configuration for edge
+19:20:47.541 [Test worker] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using msedgedriver 128.0.2739.67 (resolved driver for Edge 128)
+19:20:47.561 [Test worker] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.edge.driver as C:\Users\LENOVO\.cache\selenium\msedgedriver\win64\128.0.2739.67\msedgedriver.exe
+19:21:18.982 [Test worker] ERROR  - 
+  _____   ___   ___   _____     ___     _     ___   _      ___   ___  
+ |_   _| | __| / __| |_   _|   | __|   /_\   |_ _| | |    | __| |   \ 
+   | |   | _|  \__ \   | |     | _|   / _ \   | |  | |__  | _|  | |) |
+   |_|   |___| |___/   |_|     |_|   /_/ \_\ |___| |____| |___| |___/ 
+
+Login exitoso en orange
+-----------------------------------------------------------------------
+19:21:18.990 [Test worker] ERROR  -     Test failed at step: Then the title of the page should be a string containing 'DEMOQA'
+19:21:18.991 [Test worker] ERROR  -     Expected: a string containing "DEMOQA" but: was "Registro Nacional de Identificación y Estado Civil :: RENIEC"
+]]></system-out>
+  <system-err><![CDATA[?[32m?[1m??????????????????????????????????????????????????????????????????????????????????????[0m
+?[32m?[1m??[0m Share your Cucumber Report with your team at ?[36m?[1m?[4mhttps://reports.cucumber.io?[0m          ?[32m?[1m??[0m
+?[32m?[1m??[0m Activate publishing with one of the following:                                    ?[32m?[1m??[0m
+?[32m?[1m??[0m                                                                                   ?[32m?[1m??[0m
+?[32m?[1m??[0m src/test/resources/cucumber.properties:          ?[36mcucumber.publish.enabled?[0m=?[36mtrue?[0m    ?[32m?[1m??[0m
+?[32m?[1m??[0m src/test/resources/junit-platform.properties:    ?[36mcucumber.publish.enabled?[0m=?[36mtrue?[0m    ?[32m?[1m??[0m
+?[32m?[1m??[0m Environment variable:                            ?[36mCUCUMBER_PUBLISH_ENABLED?[0m=?[36mtrue?[0m    ?[32m?[1m??[0m
+?[32m?[1m??[0m JUnit:                                           ?[36m@CucumberOptions?[0m(publish = ?[36mtrue?[0m) ?[32m?[1m??[0m
+?[32m?[1m??[0m                                                                                   ?[32m?[1m??[0m
+?[32m?[1m??[0m More information at ?[36mhttps://cucumber.io/docs/cucumber/environment-variables/?[0m      ?[32m?[1m??[0m
+?[32m?[1m??[0m                                                                                   ?[32m?[1m??[0m
+?[32m?[1m??[0m Disable this message with one of the following:                                   ?[32m?[1m??[0m
+?[32m?[1m??[0m                                                                                   ?[32m?[1m??[0m
+?[32m?[1m??[0m src/test/resources/cucumber.properties:          ?[36mcucumber.publish.quiet?[0m=?[36mtrue?[0m      ?[32m?[1m??[0m
+?[32m?[1m??[0m src/test/resources/junit-platform.properties:    ?[36mcucumber.publish.quiet?[0m=?[36mtrue?[0m      ?[32m?[1m??[0m
+?[32m?[1m??????????????????????????????????????????????????????????????????????????????????????[0m
+]]></system-err>
+</testsuite>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="0" failures="1" name="Login Orange" skipped="0" tests="1" time="32.07" timestamp="2024-09-11 07:20:46"><testcase name="Login exitoso en orange"><failure message="&#13;&#10;Expected: a string containing &quot;DEMOQA&quot;&#13;&#10;     but: was &quot;Registro Nacional de Identificación y Estado Civil :: RENIEC&quot;" type="java.lang.AssertionError">&#13;
+Expected: a string containing "DEMOQA"&#13;
+     but: was "Registro Nacional de Identificación y Estado Civil :: RENIEC"</failure><system-err>&#13;
+Expected: a string containing "DEMOQA"&#13;
+     but: was "Registro Nacional de Identificación y Estado Civil :: RENIEC"&#13;
+stepdefinitions.hook.Hook.openTheTestWebsite(Hook.java:29)&#13;
+✽.usuario "admin" ingresar a la web principal(file:///D:/workSpaceScreenPlay/reniec/screePlay-master/src/test/resources/features/Login.feature:5)&#13;
+</system-err></testcase></testsuite>
